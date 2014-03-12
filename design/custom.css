@@ -1,0 +1,1236 @@
+#Body {
+    height: 1010px;
+    margin: 15px 10px 0 auto;
+    text-align: left;
+   width: 100%;
+min-width: 20%;
+}
+#Bookmark_List {
+border-bottom:none;
+}
+
+#Bookmark_List li {
+border-bottom:1px solid #555;
+}
+
+#CommentInfo,div.CommentInfo {
+visibility:hidden;
+}
+
+#Content {
+border:none;
+padding:0;
+min-width:20%;
+width:65%;
+margin: 0 10px 40px;
+
+}
+
+#Content,#Panel {
+opacity:0.98;
+}
+
+#DiscussionForm form {
+background:#222;
+border:1px solid #444;
+color:#fff;
+}
+#ConversationForm .TextBox {
+    background: none repeat scroll 0 0 #000000;
+    height: 100px;
+    margin: 8px 0 6px;
+    min-height: 100px;
+    width: 100%;
+}
+#ConversationForm form {
+    background: none repeat scroll 0 0 #222222;
+    border-radius: 2px 2px 2px 2px;
+    height: 600px;
+    margin: 0;
+    padding: 20px;
+    text-align: right;
+}
+div#ConversationForm{
+width:98%;
+}
+#ConversationForm label {
+    color: #CCCCCC;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+}
+#Foot {
+background:transparent;
+margin-bottom:10px;
+}
+
+#Foot div {
+margin: 0 auto;
+padding: 0;
+text-align: center!important;
+width: 100%;
+}
+#Foot ul#Menu li ul{
+display:none!important;
+}
+#FootMenu li.NonTab a.SignInPopup{
+display: none;
+}
+#FootMenu li.NonTab.SignOut a {
+display: none;
+}
+#translate-this .translate-this-button {
+background: url('http://x.translateth.is/tt-btn1.png') no-repeat;
+visibility: visible;
+position: relative;
+width: 180px;
+height: 18px;
+float: none!important;
+display: inline-block!important;
+overflow: hidden;
+text-indent: -2000px;
+margin: 10px;
+text-align:center;
+}
+#Form_Form {
+background:#444;
+border:1px solid #666;
+border-left:none;
+border-right:none;
+padding-bottom:10px;
+}
+
+#Head {
+background:#003;
+background-image:url(images/headbg.gif);
+background-repeat:repeat;
+border-bottom:10px solid #222;
+padding-left:10px;
+}
+
+#Head div h1 a span img {
+width:680px;
+height:auto;
+}
+body #Head h1 {
+display: inline-block;
+font-weight: bold;
+margin: 0;
+padding: 21px 10px 4px 0;
+border: 0;
+background:transparent;
+}
+#Menu {
+display:inline-block;
+margin:0 auto;
+vertical-align:bottom;
+}
+
+#Menu a:hover {
+background:url(images/seagrad2.png);
+color:#0F0;
+font-size:12pt;
+border:1px solid #222!important;
+border-radius: 3px 3px 3px 3px;
+box-shadow: 0px 0px 0px 1px #0f0;
+}
+
+#Menu a:link {
+font-size:12pt;
+text-decoration:none;
+}
+
+#Menu li {
+display: inline;
+float: none;
+font-weight: 700;
+line-height: 1.5;
+list-style: none outside none;
+margin: 0;
+padding: 0;
+position: relative;
+text-align: center;
+}
+#Menu a span, #Menu li.Active a span, #Menu li.Highlight a:hover span {
+-moz-border-radius: 11px;
+-webkit-border-radius: 11px;
+border-radius: 11px;
+padding: 0 2px;
+font-size: 11px;
+line-height: 12px;
+font-weight: bold;
+text-shadow: none;
+background:#fff;
+color:#000;
+}
+#MessageForm {
+background:#333;
+}
+
+#Panel {
+float:right!important;
+margin-right:10px;
+width:30%;
+}
+
+#Panel form input.Button {
+border:medium none;
+font-size:12pt;
+font-weight:700;
+height:28px;
+margin-bottom:3px;
+padding:0;
+width:26px;
+}
+
+#Panel form input.InputBox {
+background:none repeat scroll 0 0 #222;
+border-color:#666;
+border-image:none;
+border-style:solid;
+border-width:2px;
+color:#0F0;
+font-size:12px;
+font-weight:700;
+opacity:0.9;
+padding:5px;
+vertical-align:bottom;
+width:72%;
+}
+
+#Panel input.InputBox,.AddPeople textarea.MultiComplete {
+margin-bottom:2px;
+width:188px;
+}
+
+#Status {
+background:#222;
+padding-bottom:5px;
+}
+
+#ThemeCredit {
+color:#333;
+font-size:9px;
+}
+
+.Active .TabLink {
+background:#111;
+border:1px solid #222;
+color:#fff;
+}
+
+.Activities .DataList li {
+background:#111;
+border:1px solid #333;
+}
+
+.Activities .Excerpt {
+color:#FFF;
+font-weight:700;
+}
+
+.Activities .Excerpt a:hover,.Activities .Meta a:hover {
+font-size:12pt;
+text-decoration:none;
+}
+
+.Box {
+-moz-box-shadow:none;
+-webkit-box-shadow:none;
+background:#222;
+border:1px solid #555;
+box-shadow:none;
+text-align: center;
+}
+
+.Box dl dt {
+color:#555;
+}
+
+.Box h4 {
+background:rgba(51, 51, 51,0.84);
+border:1px solid #555;
+box-shadow:none;
+color:#fff;
+text-align:center;
+}
+
+.Box p,.Activities .Excerpt a,.Activities .Meta a,body.Entry form ul li label {
+color:#ddd;
+}
+.cleditorToolbar {
+background-attachment: scroll;
+background-clip: border-box;
+background-color:transparent;
+background-image: url(images/seagrad2.png)!important;
+background-origin: padding-box;
+background-position: 0 0;
+background-repeat: repeat;
+background-size: 40px auto;
+}
+.cleditorMain {
+border: 1px solid #999;
+padding: 0 1px 1px;
+background-color: #222222;
+color:#33ff33;
+font-size: 12pt;
+height:500px!important;
+}
+.Conversation .Item {
+background:#222;
+border-bottom:1px solid #444;
+}
+
+.DataList .Item {
+background:#222;
+border:1px solid #333;
+border-top:none;
+}
+
+.DataList .Meta .Announcement {
+    background: none repeat scroll 0 0 #4242A9;
+    font-size: 13px;
+    font-weight: 700;
+}
+.DataList .Meta span {
+font-size: 11px;
+color:#adadad;
+width: 100%;
+padding: 1px;
+}
+.DataList .Meta .Closed {
+background:#bb3c3c;
+font-weight:400;
+}
+
+.DataList .Options,.MessageList .Options {
+margin:7px 4px 0 0;
+}
+
+.DataList li.Mine .Meta a.Category,.DataList .Meta a.Category {
+background:#555;
+}
+.DismissMessage.Warning {
+background:#0F0;
+border: 2px solid #222;
+color: #000;
+font-weight: bold;
+font-size: 16pt;
+text-align: center;
+}
+.Empty{
+display:none;
+}
+.EmoticonBox {
+-moz-border-bottom-colors:none;
+-moz-border-left-colors:none;
+-moz-border-right-colors:none;
+-moz-border-top-colors:none;
+background-color:#222;
+background-position:center center;
+border-color:0 #AAA #AAA 0;
+border-image:none;
+border-right:1px solid #AAA;
+border-style:none solid solid none;
+border-width:0 1px 1px 0;
+cursor:pointer;
+display:block;
+float:left;
+height:22px;
+overflow:hidden;
+width:22px;
+}
+.Emoticon a:link:hover,.Emoticon img:hover,.Emoticon a:hover,.Emoticon:hover{
+background:#00ff00!important;
+}
+.EmotifyDropdown {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: url(images/smile.png);
+background-size:22px;
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    height: 22px;
+    position: absolute;
+    right: 1px;
+    float:right;
+    top: 1px;
+    width: 22px;
+}
+.EmotifyDropdown:hover {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #222222!important;
+    background-image: url(images/smile.png);
+background-size:22px;
+    background-origin: padding-box;
+   background-repeat: no-repeat;
+    cursor: pointer;
+    height: 22px;
+    position: absolute;
+    right: 1px;
+    float:right;
+    top: 1px;
+    width: 22px;
+}
+.Foot {
+background:transparent;
+border:1px solid #ba5454;
+}
+.Foot .Note {
+    color: #000000;
+    float: left;
+    font-weight: bold;
+    padding: 0 0 0 8px;
+}
+.HeadingTabs .SubTab {
+    background: none repeat scroll 0 0 transparent;
+    display: inline;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 2.4;
+    padding: 0;
+}
+.Item .Author img {
+    background: none repeat scroll 0 0 #222;
+    border: 0 none;
+    box-shadow: 1px 1px 2px 1px #00FF00;
+    float: left;
+    height: 40px;
+    margin: 0 10px 0 0;
+    overflow: hidden;
+    width: 40px;
+}
+.Menu {
+margin:0 auto;
+position:relative;
+text-align:center;
+vertical-align:bottom;
+width:100%;
+}
+.MenuTitle {
+    -moz-user-select: none;
+    background: url("images/seagrad2.png") repeat scroll 0 0 transparent;
+    border: 1px solid #666666;
+    border-radius: 2px 2px 2px 2px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 6px;
+    text-shadow: 0 1px 0 #000000;
+}
+.Menu h1 span img {
+width:100%;
+height:auto;
+}
+.MessageForm,.Tabs,.Headings {
+background:rgba(51, 51, 51,0.84);
+border-bottom:#555;
+}
+.Meta .RSS img {
+vertical-align:bottom!important;
+width: 24px!important;
+height: 24px!important;
+}
+.PanelInfo {
+border:1px solid #555;
+}
+
+.PanelInfo .Active {
+background:#fff;
+border:none;
+}
+
+.PanelInfo li {
+background:#444;
+border:none;
+}
+
+.Popup #Form_Form {
+background:#fff;
+}
+
+.Popup #Form_Form,div.Popup .Legal,div.Popup .Content form {
+background:none repeat scroll 0 0 #222;
+color:lime;
+font-size:14pt;
+font-weight:700;
+}
+.Popup #ConversationForm form {
+    background: none repeat scroll 0 0 #222222;
+    border-radius: 0 0 0 0;
+    padding: 10px;
+}
+.Preview {
+background:#222;
+border:1px solid #444;
+}
+
+.ttb-panel {
+display: none;
+font-size: 12px;
+background:rgba(0, 0, 0, 0.5)!important;
+border:none!important;
+font-family: Arial;
+color:#fff;
+}
+#ttb-paneltop.ttb-paneltop{
+background:transparent!important;
+}
+.ttb-panel.notranslate {
+display: none;
+font-size: 12px;
+text-align: left;
+background:rgba(0, 0, 0, 0.5);
+border: none!important;
+font-family: Arial;
+color: #fff;
+}
+.ttb-paneltop{
+background:rgba(0, 0, 0, 0.5)!important;
+border: none!important;
+}
+.ttb-panel.notranslate div {
+background:rgba(0, 0, 0, 0.5)!important;
+border: none!important;
+font-size: 14px!important;
+}
+a.ttb-close{
+background:#222!important;
+color:#fff!important;
+font-size:14px!important;
+}
+.ttb-panel.notranslate div a{
+background:none transparent!important;
+border:none!important;
+font-size: 14px!important;
+color:#fff;
+}
+.ttb-panel a {
+color:#fff;
+}
+.ttb-panel.notranslate div a:hover {
+background:rgba(0, 0, 0, 0.5)!important;
+color:#0f0!important;
+border:1px solid #222!important;
+outline: 1px solid #0f0!important;
+text-decoration:none!important;
+}
+.ttb-cta:hover {
+background:transparent;
+outline: 1px solid #0f0!important;
+text-decoration:none!important;
+}
+.TabLink,.TabLink:link,.TabLink:active,.TabLink:visited {
+background:#222;
+border:1px solid #444;
+font-size:14px;
+color:#fff;
+}
+.TabLink:hover{
+color:#00ff00;
+background:#222;
+border:1px solid #444;
+font-size:14px;
+}
+.Tabs .Breadcrumbs {
+background:#191919;
+}
+
+.Tabs li a span {
+background:#4ec14c;
+color:#000;
+}
+
+.User h1 {
+color:#fff;
+font-size:12pt;
+font-weight:400;
+padding:10px;
+}
+
+NonTab SignOut a {
+font-size:10pt;
+font-weight:700;
+}
+
+a {
+color:#ddd;
+font-size:14px;
+font-weight:700;
+}
+
+a.BigButton {
+background:url(images/seagrad.png);
+background-repeat:repeat-x;
+border:1px solid #999;
+border-radius:3px 3px 3px 3px;
+box-shadow:0 0 2px #999;
+color:#FFF!important;
+cursor:pointer;
+display:block;
+font-size:16px;
+font-weight:700;
+margin:0 0 10px;
+padding:7px;
+text-align:center;
+text-shadow:0 1px 0 #000;
+}
+a.Button.SignInPopup,a.Button.ApplyButton,input#Form_SignIn,input#Form_Share.Button,input#Form_PostComment.Button.CommentButton,.CommentForm a.Back, .CommentForm a.Cancel, a.Back,.Back, a.Cancel, div.AttachFileLink a, a.DeleteFile, a.InsertImage.Hidden  {
+    display: inline-block;
+    line-height: 100%;
+    margin: 3px auto;
+    padding:8px;
+background-image:url(images/seagrad.png)!important;
+background-repeat:repeat-x;
+color:#fff;
+border:1px solid #999;
+border-radius: 3px 3px 3px 3px;
+box-shadow:0 0 2px #999;
+}
+a.Button.SignInPopup:hover, a.Button.ApplyButton:hover,input#Form_SignIn:hover,input#Form_Share.Button:hover,input#Form_PostComment.Button.CommentButton:hover, a.Back:hover, div.AttachFileLink a:hover, a.DeleteFile:hover, a.InsertImage.Hidden:hover {
+display: inline-block;
+background: url(images/seagrad2.png)!important;
+line-height: 100%;
+margin: 3px auto;
+padding: 8px;
+border: 1px solid #222;
+border-radius: 3px 3px 3px 3px;
+box-shadow: 0px 0px 0px 1px #0f0;
+color:#0f0;
+text-shadow:0 1px 0 #000;
+}
+a.Button.SignInPopup:hover,a.Button.ApplyButton:hover,.Button:hover,input#Form_Go.Button:hover,input#Form_SignIn:hover{
+background-image:url(images/seagrad2.png)!important;
+background-repeat:repeat-x;
+color:#0f0;
+border:1px solid #222!important;
+border-radius: 3px 3px 3px 3px;
+box-shadow: 0px 0px 0px 1px #0f0!important;
+text-shadow:0 1px 0 #000;
+}
+a.BigButton:hover {
+background:url(images/seagrad2.png);
+color:#0f0;
+font-size:16px!important;
+text-shadow:0 1px 0 #000;
+}
+
+a.Bookmark span,a.Bookmarking span {
+display:none;
+}
+
+a.Bookmark,a.Bookmarked,a.Bookmarking {
+background:url(images/star_sprite.png) top center no-repeat;
+}
+
+a.Bookmarked {
+background-position:center center;
+}
+
+a.Bookmarking {
+background-position:bottom center;
+}
+
+a.Button,.Button,#Menu a{
+background:url(images/seagrad.png);
+background-repeat:repeat-x;
+border:1px solid #999;
+border-radius:3px 3px 3px 3px;
+box-shadow:0 0 2px #999;
+color:#fff;
+cursor:pointer;
+display:inline-block;
+font-size:14px;
+font-weight:700;
+margin:0 0 10px;
+padding:3px 6px;
+text-align:center;
+text-shadow:0 1px 0 #000;
+}
+a.Close span {
+font-size: 22px;
+font-weight: bold;
+color: #fff;
+font-size: 22px;
+    font-weight: bold;
+    line-height: .9;
+    padding: 0;
+margin: 0 2px auto;
+}
+a.Close span:hover {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: .9;
+    padding: 0;
+    color:#00ff00;
+margin: 0 2px auto;
+}
+
+a.Permalink {
+color:#adadad;
+font-size:10pt;
+font-weight:700;
+}
+
+a.Permalink:hover,a.CommentOption:hover {
+color:#0F0;
+font-size:10pt;
+font-weight:700;
+}
+
+a:hover,a:link:hover,a:hover image,a:link img:hover {
+color:#0F0;
+font-size:14px;
+font-weight:700;
+}
+body {
+    background-attachment: fixed;
+    background-clip: border-box;
+    background-color: #111111;
+    background-image: url(images/bg.png);
+    background-origin: padding-box;
+    background-position: center bottom 0px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+body.Entry #Content h1, h1, #DiscussionForm form label, .Activities li.Condensed .Excerpt, .Box .PanelCategories .Heading, .Conversations .Conversation .Message, #MessageForm h2 {
+    background: none repeat scroll 0 0 #222222;
+    color: #FFFFFF!important;
+    font-size: 20px;
+    font-weight: bold !important;
+    text-align: center;
+}
+body.Entry #Content {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    width: 360px;
+background: none repeat scroll 0 0 #222222;
+}
+body#dashboard_entry_password #Content form, body#dashboard_entry_signin #Content form, body#dashboard_entry_index #Content form {
+width: 310px!important;
+}
+body.Profile #Content {
+margin:0 10px 40px;
+float:left;
+min-width:20%;
+width:65%;
+}
+
+body.Profile #Form_Invitation ul li label,body.Profile #Form_User ul li label,div.Popup form ul li label {
+color:#FFF;
+display:block;
+font-size:14px;
+font-weight:700;
+margin:10px 0 0;
+}
+
+body.Profile #Form_User ul li label.RadioLabel,body.Profile #Form_User ul li label.CheckBoxLabel,div.Popup form ul li label.RadioLabel,div.Popup form ul li label.CheckBoxLabel {
+font-weight:700;
+}
+
+body.Profile #Panel {
+float:right!important;
+width:30%;
+}
+
+body.Profile .PanelInfo {
+border-bottom:1px solid #555;
+margin:3px 0;
+}
+
+body.Profile ul.Activities {
+border-top:1px solid #333;
+}
+
+dd.IP a,dt.IP,dd.IP,dt.Visits,dd.Visits,dt.LastActive,dd.LastActive,dd.Joined,dt.Joined {
+display:none;
+visibility:hidden;
+}
+
+dd.Name {
+color:#0F0;
+font-size:14pt;
+font-weight:700;
+}
+
+div.Comment {
+color:#3f3;
+font:family:Arial;
+font-size:12pt!important;
+}
+
+div.DismissMessage.Info {
+background:#0F0;
+border-color:#222;
+border-style:solid;
+border-width:1px;
+font:family:Arial;
+font-size:12pt;
+font-weight:700;
+}
+
+div.Entry.SingleEntryMethod {
+background:#666;
+border-color:#222;
+border-width:1px;
+font:family:Arial;
+}
+
+div.Entry.SingleEntryMethod Label {
+font-color:#adadad;
+}
+
+div.Entry.SingleEntryMethod h1 {
+background:url(images/seagrad.png);
+border-color:#222;
+border-style:solid;
+border-width:1px;
+color:#000!important;
+font:family:Arial;
+}
+
+div.Foot {
+background:transparent;
+border:none;
+}
+
+div.Message {
+color:#3f3;
+font:family:Arial;
+font-size:12pt!important;
+font-weight:700;
+}
+div.Popup a, #ThemeCredit a {
+color: #ADADAD;
+}
+
+div.Popup a:hover {
+text-decoration:none;
+}
+
+div.Popup h1,div.Popup h2 {
+background:url(images/seagrad.png) ;
+background-repeat:repeat-x;
+border:1px solid #666;
+border-radius:0;
+box-shadow:0 0 2px #999;
+color:#fff;
+font-size:18px;
+}
+
+div.Popup,.PanelInfo .Active a {
+color:#111;
+font-size:14px;
+}
+
+div.Preview {
+background:#222!important;
+font-size:14px;
+}
+div#Panel div.Photo img {
+    height: 98% !important;
+    margin: 0 auto !important;
+    width: 98% !important;
+}
+
+div.User h1 {
+color:#0F0;
+font-size:24pt;
+font-weight:700;
+background: none repeat scroll 0 0 #222222;
+}
+div.Video embed{
+width:440px!important;
+}
+h1,h2,h3,h4,h5,h6 {
+color:lime;
+font-family:"Helvetica Neue",Helvetica,arial,sans-serif;
+font-weight:400;
+margin:0;
+}
+
+input#Form_Go.Button {
+font-size:12pt;
+font-weight:700;
+}
+input#Form_Go.Button:hover {
+background: url(images/seagrad2.png);
+border: 1px solid #222;
+border-radius: 3px 3px 3px 3px;
+box-shadow: 0px 0px 0px 1px #0f0;
+color:#0f0!important;
+}
+
+
+input.DateBox,input.InputBox,input.SmallInput,textarea {
+background:none repeat scroll 0 0 #222;
+border:1px solid #666;
+border-radius:2px 2px 2px 2px;
+color:lime;
+font-size:15px;
+font-weight:700;
+margin:0;
+padding:3px;
+width:250px;
+}
+input.DateBox:focus,input.InputBox:focus,input.SmallInput,textarea:focus {
+background:none repeat scroll 0 0 #222;
+border:1px solid #666;
+border-radius:2px 2px 2px 2px;
+color:lime;
+font-size:15px;
+font-weight:700;
+margin:0;
+padding:3px;
+width:250px;
+}
+span.Email a,span.AddComment a {
+color:grey;
+font-size:10pt;
+}
+table.PreferenceGroup td.Description {
+    font-size: 14px;
+}
+textarea.MultiComplete {
+    background: none repeat scroll 0 0 #000000;
+    height: 20px;
+    text-align: left;
+    width: 100%;
+}
+
+div.Message img{
+box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+-moz-box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+-webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+border:1px solid #222;
+width: 98%!important;
+}
+.Attachment:hover .FileHover {
+	z-index: 101;
+	display: block;
+	background: url(images/contnt.png) rgba(0, 0, 0, 0.9);
+	padding: 6px;
+	border: 1px solid #666;
+   box-shadow: 0px 2px 10px #000;
+	-moz-box-shadow: 0px 2px 10px #000;
+	-webkit-box-shadow: 0px 2px 10px #000;
+	position: absolute;
+	top: -7px;
+	left: -7px;
+border-radius:4px;
+}
+#menu-bar {
+background:url(images/seagrad.png);
+background-repeat:repeat-x;
+border:1px solid #999;
+box-shadow:0 0 2px #999;
+color:#fff;
+cursor:pointer;
+display:inline-block;
+font-size:14px;
+font-weight:700;
+margin:0 0 10px;
+padding:3px 6px;
+text-align:center;
+text-shadow:0 1px 0 #000;  
+margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  height: 35px;
+width:98%;
+  line-height: 100%;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+ 
+}
+#menu-bar li {
+  margin: 0px 6px 0px 6px;
+  padding: 0px 0px 7px 0px;
+  float: left;
+  position: relative;
+  list-style: none;
+}
+#menu-bar a {
+font-weight: bold;
+font-family: arial;
+font-style: normal;
+font-size: 15px;
+color:#fff;
+text-decoration: none;
+display: block;
+padding: 10px 20px 8px 80px;
+margin: 0 auto;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+text-shadow: 2px 1px 0px #000;
+}
+#menu-bar .current a, #menu-bar li:hover > a {
+  background:transparent;
+  color: lime;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+  text-shadow: 2px 2px 3px #000000;
+}
+#menu-bar:hover{
+background:url(images/seagrad2.png) transparent;
+-moz-box-shadow:0 0 5px #0f0;
+-webkit-box-shadow:0 0 5px #0f0;
+box-shadow:0 0 5px #0f0;
+border:1px solid #0f0
+}
+#menu-bar ul li:hover a, #menu-bar li:hover li a {
+  background: none;
+  border: none;
+  color: #fff;
+  -box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+#menu-bar ul a:hover {
+  background:url(images/seagrad.png)!important;
+background-repeat:repeat-x;
+  color: lime !important;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  text-shadow: 2px 2px 3px #000000;
+}
+#menu-bar ul {
+background:rgba(0, 0, 0, 0.7);
+display: none;
+margin: 0;
+padding: 0;
+width: 240px;
+position: absolute;
+top: 30px;
+left: 0;
+border: solid 1px #222;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-box-shadow: 2px 2px 3px #222222;
+-moz-box-shadow: 2px 2px 3px #222222;
+box-shadow: 2px 2px 3px #222222;
+z-index: 100;
+}
+#menu-bar li:hover > ul {
+  display: block;
+}
+#menu-bar ul li {
+  float: none;
+  margin: 0;
+  padding: 0;
+}
+#menu-bar ul a {
+  padding:8px;
+  color:#FFFFFF !important;
+  font-size:16px;
+  font-style:normal;
+  font-family:arial;
+  font-weight: bold;
+  text-shadow: 2px 2px 3px #000000;
+}
+#menu-bar ul li:first-child > a {
+  border-top-left-radius: 5px;
+  -webkit-border-top-left-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  border-top-right-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topright: 5px;
+}
+#menu-bar ul li:last-child > a {
+  border-bottom-left-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-bottom-right-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+}
+#menu-bar:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+#menu-bar {
+  display: inline-block;
+}
+  html[xmlns] #menu-bar {
+  display: block;
+}
+* html #menu-bar {
+  height: 1%;
+}
+
+ul#Menu li ul {
+position: absolute;
+visibility: hidden;
+display: none;
+margin: 0;
+padding: 0;
+width:167px;
+top: 25px;
+left: 0;
+background: url(images/contnt.png) rgba(0, 0, 0, 0.7);
+border: solid 1px #666;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-box-shadow: 2px 2px 3px #666;
+-moz-box-shadow: 2px 2px 3px #666;
+box-shadow: 2px 2px 3px #666;
+z-index: 100;
+text-align:left;
+}
+ul#Menu li ul li {
+float: none;
+display: inline;
+margin: 0;
+z-index: 9;
+background: 
+transparent!important;
+border: none!important;
+font-size: 12pt;
+-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+text-shadow: 2px 2px 3px #000000;
+z-index: 4;
+}
+
+ul#Menu li ul li a {
+background: none 
+transparent!important;
+color: #fff !important;
+text-shadow: 0 1px 0 #000!important;
+font-size: 12pt!important;
+text-align: center!important;
+font-weight: bold;
+border: none;
+box-shadow: none;
+display: inline-block;
+width: 165px!important;
+padding: 0;
+margin: 0;
+}
+ul#Menu li ul li a:hover {
+ background:url(images/seagrad.png)!important;
+background-repeat:repeat;
+  color: lime !important;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  text-shadow: 2px 2px 3px #000000;
+box-shadow:none;
+}
+ul#Menu ul li:last-child > a:hover {
+border-bottom-left-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius-bottomleft: 5px;
+border-bottom-right-radius: 5px;
+-webkit-border-bottom-right-radius: 5px;
+-moz-border-radius-bottomright: 5px;
+}
+ul#Menu ul li:first-child > a:hover {
+  border-top-left-radius: 5px;
+  -webkit-border-top-left-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  border-top-right-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topright: 5px;
+}
+ul#Menu ul li:last-child > a {
+border-bottom-left-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius-bottomleft: 5px;
+border-bottom-right-radius: 5px;
+-webkit-border-bottom-right-radius: 5px;
+-moz-border-radius-bottomright: 5px;
+}
+ul#Menu ul li:first-child > a {
+  border-top-left-radius: 5px;
+  -webkit-border-top-left-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  border-top-right-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topright: 5px;
+}
+.UploadProgress {
+margin: 10px 0;
+background:url('images/upload-progress-back1.gif')!important;
+width: 200px;
+height:39px;
+z-index: 0;
+color: #fff;
+text-shadow: 0 1px 1px #000;
+border: 1px solid #666;
+border-radius: 2px;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px;
+font-size: 14px;
+}
+div.AttachFileWrapper table.AttachFileContainer tr.FileAttachment td div.ProgressBar {
+   width: 126px;
+   border: 2px solid gray;
+   background-color:transparent;
+   height:39px;
+   background url(images/upload-progress-back1.gif)!important;
+   border: 0px;
+font-size: 14px;
+}
+div.AttachFileWrapper table.AttachFileContainer tr.FileAttachment td div.ProgressBar div.ProgressTicker {
+   height:39px;
+   background-color:transparent;
+   background:url(images/upload-progress-back1.gif)!important;
+   line-height: 14px;
+   font-size: 14px;
+   color: #fff;
+   padding-right: 2px;
+   text-align: right;
+}
+div.MainForm div form#Form_User_SignIn{
+background:#222;
+width:290px!important;
+}
+.SingleEntryMethod {
+width: 310px;
+margin: 0 auto;
+}
+body.Profile #Form_Invitation ul li label, body.Profile #Form_User ul li label, div.Popup form ul li label {
+color:#fff;
+display: block;
+font-size: 14px;
+font-weight: bold;
+margin: 10px 0 0;
+}
+div.Popup a {
+color: #ccc;
+}
+div.Popup h1, div.Popup h2 {
+color: #fff;
+font-size:16px;
+background:url(images/seagrad2.png);
+border:1px solid #222;
+}
+div.Popup .Body {
+background: #222;
+width: 320px;
+}
+div.Popup .Legal, div.Popup .Content form {
+max-height: 640px;
+overflow: auto;
+padding: 0 10px 10px;
+}
