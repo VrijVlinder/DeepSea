@@ -1,9 +1,10 @@
 #Body {
-    height: 1010px;
+   min-height: 1000px;
     margin: 15px 10px 0 auto;
     text-align: left;
    width: 100%;
 min-width: 20%;
+background:transparent;
 }
 #Bookmark_List {
 border-bottom:none;
@@ -29,11 +30,13 @@ margin: 0 10px 40px;
 #Content,#Panel {
 opacity:0.98;
 }
-
 #DiscussionForm form {
-background:#222;
-border:1px solid #444;
+background:transparent;
+border: none;
 color:#fff;
+}
+#DiscussionForm a.Cancel {
+margin-left: 0px;
 }
 #ConversationForm .TextBox {
     background: none repeat scroll 0 0 #000000;
@@ -60,18 +63,40 @@ width:98%;
     font-weight: bold;
     text-align: left;
 }
+#DiscussionForm label {
+font-size: 23px;
+background:transparent!important;
+color:#0F0!important;
+text-align: center;
+float: none;
+font-weight: bold;
+font-family: Impact,Arial;
+text-shadow: 2px 3px 3px #000;
+}
+#DiscussionForm h1{
+background:transparent!important;
+font-family: Impact,Arial;
+text-shadow: 2px 3px 3px #000;
+}
+#DiscussionForm .PostOptions label {
+display: inline;
+font-weight: normal;
+font-size: 100%;
+color:#fff;
+}
+
 #Foot {
 background:transparent;
 margin-bottom:10px;
 }
 
 #Foot div {
-margin: 0 auto;
+margin: 20px auto;
 padding: 0;
 text-align: center!important;
 width: 100%;
 }
-#Foot ul#Menu li ul{
+#FootMenu ul#Menu li ul{
 display:none!important;
 }
 #FootMenu li.NonTab a.SignInPopup{
@@ -102,17 +127,21 @@ padding-bottom:10px;
 }
 
 #Head {
-background:#003;
-background-image:url(images/headbg.gif);
-background-repeat:repeat;
-border-bottom:10px solid #222;
-padding-left:10px;
+background: 
+transparent;
+background-image: none;
+background-repeat: repeat;
+border-bottom: none;
+padding-left: 10px;
 }
 
-#Head div h1 a span img {
-width:680px;
-height:auto;
+#Head h1 span img {
+max-width:900px;
+min-width: 400px;
+height: auto!important;
+width:80%!important;
 }
+
 body #Head h1 {
 display: inline-block;
 font-weight: bold;
@@ -174,15 +203,6 @@ margin-right:10px;
 width:30%;
 }
 
-#Panel form input.Button {
-border:medium none;
-font-size:12pt;
-font-weight:700;
-height:28px;
-margin-bottom:3px;
-padding:0;
-width:26px;
-}
 
 #Panel form input.InputBox {
 background:none repeat scroll 0 0 #222;
@@ -194,7 +214,7 @@ color:#0F0;
 font-size:12px;
 font-weight:700;
 opacity:0.9;
-padding:5px;
+padding:8px;
 vertical-align:bottom;
 width:72%;
 }
@@ -214,10 +234,14 @@ color:#333;
 font-size:9px;
 }
 
-.Active .TabLink {
-background:#111;
-border:1px solid #222;
-color:#fff;
+.Active .TabLink, a.MyDrafts.TabLink,a.MyDiscussions.TabLink,a.MyBookmarks.TabLink,a.MyComments.TabLink,a.WriteButton.TabLink.Popable,a.DraftButton.TabLink {
+position: relative!important;
+top: 5px!important;
+}
+
+a.MyDrafts.TabLink:hover,a.MyDiscussions.TabLink:hover,a.MyBookmarks.TabLink:hover,a.MyComments.TabLink:hover,,a.WriteButton.TabLink.Popable:hover,a.DraftButton.TabLink:hover {
+position: relative!important;
+top: 5px;
 }
 
 .Activities .DataList li {
@@ -229,9 +253,21 @@ border:1px solid #333;
 color:#FFF;
 font-weight:700;
 }
-
-.Activities .Excerpt a:hover,.Activities .Meta a:hover {
-font-size:12pt;
+.Activities li.HasPhoto .Title {
+padding: 0;
+color:#0F0;
+}
+.Activities .Excerpt a:hover,.Activities .Meta a:hover,.DataList a.Title:hover {
+font-size:10pt;
+text-decoration:none;
+color:#FF0;
+}
+.DataList .Excerpt a {
+color:#fff!important;
+display: block;
+}
+.Activities .Excerpt a,.Activities .Meta a,.DataList a.Title {
+font-size:10pt;
 text-decoration:none;
 }
 
@@ -258,6 +294,13 @@ text-align:center;
 
 .Box p,.Activities .Excerpt a,.Activities .Meta a,body.Entry form ul li label {
 color:#ddd;
+}
+.Buttons {
+margin-top: 10px;
+text-align: center;
+}
+.CommentForm a.Back, .CommentForm a.Cancel {
+float: right;
 }
 .cleditorToolbar {
 background-attachment: scroll;
@@ -297,7 +340,7 @@ border-top:none;
 font-size: 11px;
 color:#adadad;
 width: 100%;
-padding: 1px;
+padding: 3px;
 }
 .DataList .Meta .Closed {
 background:#bb3c3c;
@@ -387,13 +430,28 @@ border:1px solid #ba5454;
     padding: 0 0 0 8px;
 }
 .HeadingTabs .SubTab {
-    background: none repeat scroll 0 0 transparent;
-    display: inline;
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 2.4;
-    padding: 0;
+background:#222;
+display: block;
+text-align: center;
+font-size: 23px;
+font-weight: bold;
+line-height: 2.4;
+padding: 0px;
+border: 1px solid #666;
+color: #0F0;
+text-shadow: 1px 3px 4px #000;
+font-family: Impact,Arial;
 }
+.Headings .ItemHeading {
+color:lime;
+font-size: 20px;
+font-weight: bold;
+line-height: 2;
+text-align: center;
+font-family: Impact,Arial;
+text-shadow: 0 1px 0 #000;
+}
+
 .Item .Author img {
     background: none repeat scroll 0 0 #222;
     border: 0 none;
@@ -426,9 +484,15 @@ width:100%;
 width:100%;
 height:auto;
 }
-.MessageForm,.Tabs,.Headings {
-background:rgba(51, 51, 51,0.84);
-border-bottom:#555;
+.MessageForm, .Tabs, .Headings {
+background:transparent;
+border-bottom: none;
+}
+.MessageForm .Tabs {
+padding: 10px;
+border: 0;
+background: none;
+text-align: right;
 }
 .Meta .RSS img {
 vertical-align:bottom!important;
@@ -524,22 +588,33 @@ background:transparent;
 outline: 1px solid #0f0!important;
 text-decoration:none!important;
 }
-.TabLink,.TabLink:link,.TabLink:active,.TabLink:visited {
-background:#222;
-border:1px solid #444;
-font-size:14px;
-color:#fff;
+.TabLink, .TabLink:link, .TabLink:active, .TabLink:visited {
+position: relative;
+top: 13px;
+right: 5px;
 }
-.TabLink:hover{
-color:#00ff00;
-background:#222;
-border:1px solid #444;
-font-size:14px;
+.TabLink:hover, .TabLink:link:hover, .TabLink:active:hover, .TabLink:visited:hover {
+position: relative;
+top: 13px;
+right: 5px;
+}
+a.TabLink.Popable{
+position: relative;
+top:13px;
+right: 5px;
 }
 .Tabs .Breadcrumbs {
-background:#191919;
+background:transparent;
+text-align: center;
 }
-
+.Tabs.ProfileTabs{
+background:transparent;
+}
+div.SubTab.Breadcrumbs span.Breadcrumb a{
+font-size: 20px!important;
+font-family: Impact,Arial;
+font-weight: bold;
+}
 .Tabs li a span {
 background:#4ec14c;
 color:#000;
@@ -570,53 +645,47 @@ border:1px solid #999;
 border-radius:3px 3px 3px 3px;
 box-shadow:0 0 2px #999;
 color:#FFF!important;
-cursor:pointer;
 display:block;
 font-size:16px;
 font-weight:700;
 margin:0 0 10px;
-padding:7px;
+padding:8px;
 text-align:center;
 text-shadow:0 1px 0 #000;
+line-height: 1.3;
 }
-a.Button.SignInPopup,a.Button.ApplyButton,input#Form_SignIn,input#Form_Share.Button,input#Form_PostComment.Button.CommentButton,.CommentForm a.Back, .CommentForm a.Cancel, a.Back,.Back, a.Cancel, div.AttachFileLink a, a.DeleteFile, a.InsertImage.Hidden  {
+a.Button.SignInPopup,a.Button.ApplyButton,input#Form_SignIn,input#Form_Share.Button,input#Form_PostComment.Button.CommentButton,.CommentForm a.Back, .CommentForm a.Cancel, a.Back,.Back, a.Cancel, div.AttachFileLink a, a.DeleteFile, a.InsertImage.Hidden,a.SmallButton,input.SmallButton, input.Button, a.Button.SignInPopup, a.Button.ApplyButton,.Button, input#Form_Go.Button, input#Form_SignIn ,#Panel form input.Button,.TabLink, .TabLink:link, .TabLink:active, .TabLink:visited,#DiscussionForm a.Cancel {
     display: inline-block;
     line-height: 100%;
     margin: 3px auto;
-    padding:8px;
+    padding:6px!important;
 background-image:url(images/seagrad.png)!important;
 background-repeat:repeat-x;
 color:#fff;
 border:1px solid #999;
 border-radius: 3px 3px 3px 3px;
 box-shadow:0 0 2px #999;
+text-shadow: 0 1px 0 #000;
 }
-a.Button.SignInPopup:hover, a.Button.ApplyButton:hover,input#Form_SignIn:hover,input#Form_Share.Button:hover,input#Form_PostComment.Button.CommentButton:hover, a.Back:hover, div.AttachFileLink a:hover, a.DeleteFile:hover, a.InsertImage.Hidden:hover {
+a.Button.SignInPopup:hover, a.Button.ApplyButton:hover,input#Form_SignIn:hover,input#Form_Share.Button:hover,input#Form_PostComment.Button.CommentButton:hover, a.Back:hover, div.AttachFileLink a:hover, a.DeleteFile:hover, a.InsertImage.Hidden:hover,a.SmallButton:hover,input.SmallButton:hover,input.SmallButton:focus,input.Button:hover,a.Button.SignInPopup:hover,a.Button.ApplyButton:hover,.Button:hover,input#Form_Go.Button:hover,input#Form_SignIn:hover,#Panel form input.Button:hover,.TabLink:hover, .TabLink:link:hover, .TabLink:active:hover, .TabLink:visited:hover,#DiscussionForm a.Cancel:hover {
 display: inline-block;
 background: url(images/seagrad2.png)!important;
 line-height: 100%;
-margin: 3px auto;
-padding: 8px;
-border: 1px solid #222;
-border-radius: 3px 3px 3px 3px;
-box-shadow: 0px 0px 0px 1px #0f0;
-color:#0f0;
-text-shadow:0 1px 0 #000;
-}
-a.Button.SignInPopup:hover,a.Button.ApplyButton:hover,.Button:hover,input#Form_Go.Button:hover,input#Form_SignIn:hover{
-background-image:url(images/seagrad2.png)!important;
-background-repeat:repeat-x;
-color:#0f0;
-border:1px solid #222!important;
-border-radius: 3px 3px 3px 3px;
+border: 1px solid #222!important;
+border-radius: 3px 3px 3px 3px!important;
 box-shadow: 0px 0px 0px 1px #0f0!important;
-text-shadow:0 1px 0 #000;
+color:#0f0!important;
+text-shadow: 0 1px 0 #000!important;
 }
+
 a.BigButton:hover {
 background:url(images/seagrad2.png);
 color:#0f0;
 font-size:16px!important;
 text-shadow:0 1px 0 #000;
+-moz-box-shadow:0px 0px 3px 2px #0f0;
+-webkit-box-shadow:0px 0px 3px 2px #0f0;
+box-shadow:0px 0px 3px 2px #0f0;
 }
 
 a.Bookmark span,a.Bookmarking span {
@@ -684,25 +753,29 @@ font-weight:700;
 
 a:hover,a:link:hover,a:hover image,a:link img:hover {
 color:#0F0;
-font-size:14px;
 font-weight:700;
 }
 body {
-    background-attachment: fixed;
-    background-clip: border-box;
-    background-color: #111111;
-    background-image: url(images/bg.png);
-    background-origin: padding-box;
-    background-position: center bottom 0px;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    color: #FFFFFF;
-    font-weight: 700;
+background-attachment: fixed;
+background-clip: border-box;
+background-color:#000080;
+background-image: url(images/bg.png);
+background-origin: padding-box;
+background-position: center bottom 0px;
+background-repeat: no-repeat;
+background-size: 100% 120%;
+color:#fff;
+font-weight: 700;
+box-shadow: none;
+width: 100%;
 }
-
+body.Discussion a.Bookmark {
+float: right;
+margin: 10px 0 0 8px;
+}
 body.Entry #Content h1, h1, #DiscussionForm form label, .Activities li.Condensed .Excerpt, .Box .PanelCategories .Heading, .Conversations .Conversation .Message, #MessageForm h2 {
     background: none repeat scroll 0 0 #222222;
-    color: #FFFFFF!important;
+    color: #FFFFFF;
     font-size: 20px;
     font-weight: bold !important;
     text-align: center;
@@ -778,23 +851,21 @@ font-weight:700;
 }
 
 div.Entry.SingleEntryMethod {
-background:#666;
-border-color:#222;
+background:#000;
+border-color:#666;
 border-width:1px;
-font:family:Arial;
 }
 
 div.Entry.SingleEntryMethod Label {
 font-color:#adadad;
 }
-
 div.Entry.SingleEntryMethod h1 {
-background:url(images/seagrad.png);
-border-color:#222;
-border-style:solid;
-border-width:1px;
-color:#000!important;
-font:family:Arial;
+    background: url("images/seagrad.png") repeat scroll 0 0 transparent;
+    border-color: #222222;
+    border-style: solid;
+    border-width: 1px;
+    color: #FFFFFF !important;
+    text-shadow: 0 1px 0 #000000;
 }
 
 div.Foot {
@@ -836,16 +907,18 @@ background:#222!important;
 font-size:14px;
 }
 div#Panel div.Photo img {
-    height: 98% !important;
     margin: 0 auto !important;
     width: 98% !important;
 }
 
 div.User h1 {
 color:#0F0;
-font-size:24pt;
-font-weight:700;
-background: none repeat scroll 0 0 #222222;
+font-size: 24pt;
+font-weight: 700;
+text-shadow: 2px 3px 4px #000;
+font-family: Impact,Arial;
+background: none repeat scroll 0 0 
+transparent;
 }
 div.Video embed{
 width:440px!important;
@@ -914,17 +987,17 @@ border:1px solid #222;
 width: 98%!important;
 }
 .Attachment:hover .FileHover {
-	z-index: 101;
-	display: block;
-	background: url(images/contnt.png) rgba(0, 0, 0, 0.9);
-	padding: 6px;
-	border: 1px solid #666;
+    z-index: 101;
+    display: block;
+    background: url(images/contnt.png) rgba(0, 0, 0, 0.9);
+    padding: 6px;
+    border: 1px solid #666;
    box-shadow: 0px 2px 10px #000;
-	-moz-box-shadow: 0px 2px 10px #000;
-	-webkit-box-shadow: 0px 2px 10px #000;
-	position: absolute;
-	top: -7px;
-	left: -7px;
+    -moz-box-shadow: 0px 2px 10px #000;
+    -webkit-box-shadow: 0px 2px 10px #000;
+    position: absolute;
+    top: -7px;
+    left: -7px;
 border-radius:4px;
 }
 #menu-bar {
@@ -981,12 +1054,12 @@ text-shadow: 2px 1px 0px #000;
   box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
   text-shadow: 2px 2px 3px #000000;
 }
-#menu-bar:hover{
-background:url(images/seagrad2.png) transparent;
--moz-box-shadow:0 0 5px #0f0;
--webkit-box-shadow:0 0 5px #0f0;
-box-shadow:0 0 5px #0f0;
-border:1px solid #0f0
+#menu-bar:hover {
+background: url(images/seagrad2.png)transparent;
+-moz-box-shadow: 0px 0px 3px 2px #0f0;
+-webkit-box-shadow: 0px 0px 3px 2px #0f0;
+box-shadow: 0px 0px 3px 2px #0f0;
+border: 1px solid #222;
 }
 #menu-bar ul li:hover a, #menu-bar li:hover li a {
   background: none;
@@ -1202,8 +1275,9 @@ div.AttachFileWrapper table.AttachFileContainer tr.FileAttachment td div.Progres
    text-align: right;
 }
 div.MainForm div form#Form_User_SignIn{
-background:#222;
-width:290px!important;
+background:#000;
+width: 288px!important;
+border: none;
 }
 .SingleEntryMethod {
 width: 310px;
@@ -1219,18 +1293,177 @@ margin: 10px 0 0;
 div.Popup a {
 color: #ccc;
 }
-div.Popup h1, div.Popup h2 {
+div.Popup h1 {
 color: #fff;
 font-size:16px;
 background:url(images/seagrad2.png);
 border:1px solid #222;
 }
+div.Popup h2{
+background:none #222;
+box-shadow:none;
+border:none;
+}
+div#Popup #Content {
+    float: left;
+    margin: 0 0 40px;
+   width: 100%!important;
+
+}
+div#Popup .Content {
+    float: left;
+    margin: 0 0 40px;
+   width: 100%!important;
+
+}
+div.Popup p {
+    font-size: 16px;
+    padding: 6px 10px 10px;
+text-align: left;
+}
 div.Popup .Body {
 background: #222;
-width: 320px;
+max-height: 800px;
+    overflow: auto;
+    max-width: 600px;
+}
+div.Popup .Border {
+margin: 0px auto;
+text-align: left;
+position: relative;
+max-width: 600px!important;
+display: inline-block;
 }
 div.Popup .Legal, div.Popup .Content form {
 max-height: 640px;
 overflow: auto;
 padding: 0 10px 10px;
+}
+div.Popup a.Close span {
+ margin: 0 20px auto;
+}
+li.CreateAccount{
+font-size:14px;
+}
+body.Dashboard.Plugin #Content {
+width: 90%;
+margin: 0 auto;
+float: none;
+background:rgba(0, 0, 0,0.84);
+border-bottom: #666;
+min-height: 1000px;
+}
+body.Dashboard.Plugin .MessageForm, body.Dashboard.Plugin .Tabs, .Headings {
+background:rgba(0, 0, 0,0.84);
+border-bottom:#666;
+text-align: center;
+font-size: 18px;
+}
+h19 {
+font-size: 28px;
+font-weight: bold;
+font-family: Impact,Arial;
+color:#0F0!important;
+}
+
+body.Dashboard.Plugin #Panel {
+display: inline-block;
+float: none!important;
+width: 100%!important;
+background: none repeat scroll 0 0 
+transparent!important;
+border: none!important;
+margin-left: 0!important;
+margin-top: 0px!important;
+text-align:center!important;
+}
+body.Dashboard.Plugin #menu-bar {
+display: none!important;
+}
+.picGals .pics img {
+display: inline;
+width: 150px;
+height: 150px;
+text-align: center;
+margin: 15px 15px 15px 15px;
+border-radius: 150px 150px 150px 150px!important;
+box-shadow: 0px 2px 2px 12px #666;
+}
+body.Vanilla.Discussions .Active .TabLink {
+position: relative!important;
+top: 5px!important;
+}
+.flag span {
+position: absolute;
+margin: -5px 25px;
+}
+body.Post #Content {
+width: 98%;
+background: transparent;
+}
+body {
+overflow-y: scroll;
+overflow-x: hidden;
+}
+
+
+* {
+margin: 0;
+padding: 0;
+}
+
+::-webkit-scrollbar {
+width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+-webkit-border-radius: 10px;
+border-radius: 10px;
+background:rgb(0, 255, 0);
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+::-webkit-scrollbar-track {
+-webkit-box-shadow: inset 0 0 6px rgb(102, 102, 102);
+-webkit-border-radius:0;
+border-radius: 0;
+background:rgba(0, 0, 0, 0.9);
+}
+marquee.textmarquee {
+background-color:transparent;
+font-size: 50pt;
+color:gold;
+text-shadow: 0 2px 2px #000;
+font-weight: normal;
+border: none;
+line-height: .85;
+width: auto;
+font-family: Gawain!important;
+max-height: 95px;
+}
+@font-face {
+ font-family: 'Gawain';
+ src: url('/Forum/themes/DeepSea/Gawain.ttf');
+ src: url('/Forum/themes/DeepSea/Gawain.ttf') format('truetype');
+  font-weight: normal;
+ font-style: normal;
+}
+code, pre {
+border-radius: 2px;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+background:#ff9;
+padding: 4px 8px;
+white-space: pre;
+font-family: monospace;
+overflow: auto;
+border: 1px solid #666;
+color:#000!important;
+}
+blockquote {
+padding: 5px 10px;
+margin-right: 10px;
+font-style: italic;
+background-color:#000080;
+margin-left: 0px;
 }
