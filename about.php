@@ -14,7 +14,7 @@ Contact Vanilla Forums Inc. at support [at] vanillaforums [dot] com
 $ThemeInfo['DeepSea'] = array(
    'Name' => 'DeepSea',
    'Description' => "A Dark embed friendly and full scale theme with and underwater twist. This theme is very dynamic and can be placed anywhere. Use it in a Facebook Page Or anywhere you want.",
-   'Version' => '1.4',
+   'Version' => '1.5',
    'Author' => "VrijVlinder",
    'AuthorEmail' => 'contact@vrijvlinder.com',
    'AuthorUrl' => 'vrijvlinder.com'
